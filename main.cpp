@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-    char a;
+    int a = 0;
     cin >> a;
-    if(convert(a)){
-        cout << a << endl;
+    if(numero_primo(a,a)){
+        cout << "numero primo";
     }else{
-        cout << "errore" << endl;
+        cout << "numero non primo";
     }
     return 0;
 }
